@@ -8489,9 +8489,9 @@ react-cropper@^1.2.0:
     prop-types "^15.5.8"
 
 react-datepicker@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/react-datepicker/-/react-datepicker-2.5.0.tgz#67c68b3ffef2eb69b4400913d3cfcfef870be2b3"
-  integrity sha512-X8D+5CqumSUwoq/x5d8O0neYDRmPmwVcyCktVbs5juXV4s73beV6sMf87hM6lxMSanWeB+jpx8waxJcPqsmCIg==
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/react-datepicker/-/react-datepicker-2.6.0.tgz#d40413f8a857a14c7d0540e28e1720460a1d168b"
+  integrity sha512-EcgQPqwHpQ80jvRrBowkvEcDfx0Rxf6mK3zUOuJQG9VdB4JXPGyQK6kZaCv9KgCAtCuu2f/12dU0Utw0+JAnDw==
   dependencies:
     classnames "^2.2.5"
     date-fns "^2.0.0-alpha.23"
@@ -8873,9 +8873,9 @@ redux-firestore@^0.8.0:
     reduce-reducers "0.4.3"
 
 redux-form@^8.2.1:
-  version "8.2.1"
-  resolved "https://registry.yarnpkg.com/redux-form/-/redux-form-8.2.1.tgz#0fcadb5d5d697fbeba27de151acb9d9dd7c861f1"
-  integrity sha512-bqTsf9uqJPnJLGnYOuWaz18QkSVgAbGbBUves0Mg3+kaQYaiIByRkM73R7n80J+i41wUadOVFCJJkHR57JgC+w==
+  version "8.2.3"
+  resolved "https://registry.yarnpkg.com/redux-form/-/redux-form-8.2.3.tgz#6156cddf15ad929cf70671607d3b980a81e94ec1"
+  integrity sha512-AHuhaAoG6bH6t9xfsZA6ZxK9M/QF0GN+AfoRaQzP5o+ZINIiCEUS3ThgAEDbZPvqwuem/WQdtoc0P9HcXvEelA==
   dependencies:
     "@babel/runtime" "^7.2.0"
     es6-error "^4.1.1"
