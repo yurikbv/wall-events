@@ -23,6 +23,12 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+      window.myCallbackFunc = function() {
+        window.initOne && window.initOne();
+        window.initTwo && window.initTwo();
+      }
+    </script>
     <div id="root"></div>
     <!--
       This HTML file is a template.

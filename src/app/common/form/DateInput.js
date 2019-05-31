@@ -10,13 +10,14 @@ const DateInput = ({input: {value, onChange, ...restInput}, width, placeholder, 
         <DatePicker
             {...rest}
             placeholderText={placeholder}
-            selected={value ? moment(value) : null}
+            // selected={value ? moment(value).format('YYYY-MM-DD HH:mm') : null}
+            value = {value ? moment(value).format('YYYY-MM-DD HH:mm') : new Date()}
             onChange={onChange}
             {...restInput}
         />
         {touched && error && <Label basic color='red'>{error}</Label>}
       </Form.Field>
-  );
-};
+  )
+}
 
 export default DateInput;

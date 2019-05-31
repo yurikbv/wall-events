@@ -4,14 +4,9 @@
     <list default="true" id="265dae4b-2fbd-4e0b-8b7f-53e9f57ee3b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/reducers/rootReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/EventDashboard/EventDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventDashboard/EventDashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventDetailed/EventDetailedPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/common/form/DateInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/common/form/DateInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/features/event/EventForm/EventForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventForm/EventForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/EventList/EventList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventList/EventList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/event/EventList/EventListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/event/EventList/EventListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/reducers/rootReducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="78">
               <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -40,34 +35,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/features/event/EventForm/EventForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="156">
+              <caret line="114" column="22" lean-forward="true" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/common/form/DateInput.js">
+        <entry file="file://$PROJECT_DIR$/src/app/common/form/PlaceInput.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="312">
+              <caret line="18" selection-start-line="18" selection-end-line="19" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,13 +69,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Script</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/features/event/EventList/EventListAttendee.js" />
@@ -125,8 +116,10 @@
         <option value="$PROJECT_DIR$/src/app/common/form/TextInput.js" />
         <option value="$PROJECT_DIR$/src/app/common/form/SelectInput.js" />
         <option value="$PROJECT_DIR$/src/app/common/form/DateInput.js" />
-        <option value="$PROJECT_DIR$/src/features/event/EventForm/EventForm.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app/common/form/PlaceInput.js" />
+        <option value="$PROJECT_DIR$/src/features/event/EventForm/EventForm.js" />
       </list>
     </option>
   </component>
@@ -138,7 +131,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="559" />
-    <option name="y" value="10" />
+    <option name="y" value="4" />
     <option name="width" value="858" />
     <option name="height" value="846" />
   </component>
@@ -156,6 +149,17 @@
             <path>
               <item name="r-events" type="b2602c69:ProjectViewProjectNode" />
               <item name="r-events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="r-events" type="b2602c69:ProjectViewProjectNode" />
+              <item name="r-events" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="r-events" type="b2602c69:ProjectViewProjectNode" />
+              <item name="r-events" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="r-events" type="b2602c69:ProjectViewProjectNode" />
@@ -180,6 +184,14 @@
               <item name="r-events" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="r-events" type="b2602c69:ProjectViewProjectNode" />
+              <item name="r-events" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,14 +206,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="event" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="r-events" type="b2602c69:ProjectViewProjectNode" />
-              <item name="r-events" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
-              <item name="EventDetailed" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="r-events" type="b2602c69:ProjectViewProjectNode" />
@@ -298,12 +302,14 @@
       <workItem from="1559155669672" duration="3012000" />
       <workItem from="1559158774312" duration="9143000" />
       <workItem from="1559209681631" duration="10601000" />
-      <workItem from="1559241810153" duration="14987000" />
+      <workItem from="1559241810153" duration="15211000" />
+      <workItem from="1559291186401" duration="16721000" />
+      <workItem from="1559318763184" duration="3978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66797000" />
+    <option name="totallyTimeSpent" value="87720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,7 +330,7 @@
       <window_info id="Favorites" order="3" side_tool="true" weight="0.32966322" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,7 +338,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3288889" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28148147" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2813793" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -343,13 +349,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/npm-shrinkwrap.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2886" />
@@ -623,16 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/reducers/rootReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/common/form/TextArea.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -653,40 +642,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/form/DateInput.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-load-script/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/common/form/TextInput.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+          <caret line="7" column="70" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="70" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/common/form/DateInput.js">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="235">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/features/event/EventForm/EventForm.js">
+    <entry file="file://$PROJECT_DIR$/src/app/reducers/rootReducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="78">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="157">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/common/form/PlaceInput.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="18" selection-start-line="18" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features/event/EventForm/EventForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="114" column="22" lean-forward="true" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
