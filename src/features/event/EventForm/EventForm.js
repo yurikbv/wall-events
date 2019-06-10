@@ -43,10 +43,15 @@ class EventForm extends Component {
   state = {
     cityLatLng: {},
     venueLatLng: {},
+    city: '',
+    venue: '',
     scriptLoaded: false
   };
 
   handleCitySelect = selectedCity => {
+    this.setState({
+      city: selectedCity
+    });
     geocodeByAddress(selectedCity)
         .then(results => getLatLng(results[0]))
         .then(latlng => {
@@ -59,8 +64,25 @@ class EventForm extends Component {
         })
   };
 
+  handleVenueSelect = selectedVenue => {
+    this.setState({
+      venue: selectedVenue
+    });
+    geocodeByAddress(selectedVenue)
+        .then(results => getLatLng(results[0]))
+        .then(latlng => {
+          this.setState({
+            venueLatLng: latlng
+          });
+        })
+        .then(() => {
+          this.props.change('venue', selectedVenue)
+        })
+  };
+
   onFormSubmit = values => {
     values.date = moment(values.date).format();
+    values.venueLatLng = this.state.venueLatLng;
     if (this.props.initialValues.id) {
       this.props.updateEvent(values);
       this.props.history.goBack();
@@ -79,13 +101,12 @@ class EventForm extends Component {
 
   handleScriptLoaded = () => this.setState({scriptLoaded: true});
 
-
   render() {
     const {invalid, submitting, pristine} = this.props;
     return (
         <Grid>
           <Script
-              url="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXfE3wOacfYwI5NrIg2K4LWqn6Fq_iaJg&libraries=places"
+              url="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD0v5BshSYbEcuO0sCf5BLfMqlvk_j9x0&libraries=places"
               onLoad={this.handleScriptLoaded}
           />
           <Grid.Column width={10}>
@@ -102,15 +123,18 @@ class EventForm extends Component {
 
                 <Header sub color="teal" content="Event Location Details"/>
 
+
                 <Field
                     name="city"
                     type="text"
                     component={PlaceInput}
                     placeholder="Event City"
-                    options={{types: ['city']}}
+                    options={{types: ['(cities)']}}
                     callName="initOne"
                     onSelect={this.handleCitySelect}
+                    value={this.state.city}
                 />
+
                 {this.state.scriptLoaded &&
                 <Field
                     name="venue"
@@ -123,6 +147,8 @@ class EventForm extends Component {
                       types: ['establishment']
                     }}
                     callName="initTwo"
+                    onSelect={this.handleVenueSelect}
+                    value={this.state.venue}
                 />}
 
 

@@ -1,40 +1,31 @@
 import React, {Component} from 'react';
 import { Form, Label} from "semantic-ui-react";
 import Script from "react-load-script";
-import PlacesAutocomplete, {geocodeByAddress, getLatLng} from 'react-places-autocomplete';
+import PlacesAutocomplete from 'react-places-autocomplete';
 
 class PlaceInput extends Component {
 
   state = {
-    address: '',
     scriptLoaded: false
-  };
-
-  handleChange = address => {
-      this.setState({
-        address
-      });
   };
 
   handleScriptLoaded = () => this.setState({scriptLoaded: true});
 
   render() {
-
     const {input, width, onSelect, callName, placeholder, options, meta: {touched, error}} = this.props;
+
     return (
         <Form.Field error={touched && !!error} width={width}>
           <Script
-              url="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXfE3wOacfYwI5NrIg2K4LWqn6Fq_iaJg&libraries=places"
+              url="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD0v5BshSYbEcuO0sCf5BLfMqlvk_j9x0&libraries=places"
               onLoad={this.handleScriptLoaded}
           />
           {this.state.scriptLoaded &&
           <PlacesAutocomplete
-              {...input}
-              value={this.state.address}
+              { ...input}
               googleCallbackName={callName}
               searchOptions={options}
               onSelect={onSelect}
-              onChange={this.handleChange}
           >
             {({ getInputProps, suggestions, getSuggestionItemProps, loading }) => (
                 <div>
