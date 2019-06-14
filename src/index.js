@@ -24,7 +24,8 @@ const store = configureStore();
 const rrfConfig = {
   userProfile: 'users',
   attachAuthIsReady: true,
-  useFirestoreForProfile: true
+  useFirestoreForProfile: true,
+  updateProfileOnLogin: false
 };
 const rrfProps = {
   firebase,
