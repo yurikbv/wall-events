@@ -26,7 +26,6 @@ export const registerUser = (user) =>
         displayName: user.displayName,
         photoURL:`http://gravatar.com/avatar/${md5(createdUser.user.email)}?d=identicon`
         });
-      console.log(createdUser);
       let newUser = {
         displayName: user.displayName,
         createdAt: firebase.firestore.FieldValue.serverTimestamp(),

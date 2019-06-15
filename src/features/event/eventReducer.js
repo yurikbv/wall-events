@@ -1,7 +1,7 @@
 import { createReducer } from "../../app/common/util/reducerUtil";
 import * as event_type from './eventConstants';
 
-const old = [
+/*const old = [
   {
     id: '1',
     title: 'Trip to Empire State building',
@@ -56,7 +56,7 @@ const old = [
       }
     ]
   }
-];
+];*/
 
 const initialState = [];
 
